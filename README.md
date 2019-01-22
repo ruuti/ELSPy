@@ -28,11 +28,11 @@ choises = els.get_choises()
 
 ```
 [{
-	'Name': 'Övernattningsrum',
-	'Index': 0
+  'Name': 'Övernattningsrum',
+  'Index': 0
 }, {
-	'Name': 'Tvättstuga',
-	'Index': 1
+  'Name': 'Tvättstuga',
+  'Index': 1
 }]
 ```
 
@@ -46,59 +46,59 @@ bookings = els.get_bookings(2, '2019-01-22', '2019-01-23')
 
 ```
 [{
-	'BookDate': '2019-01-23',
-	'BookDayPassesAmount': 3,
-	'BookPasses': {
-		'BookDayPass': [
-			{
-				'PassIndex': 3,
-				'StartTime': '16:00',
-				'EndTime': '19:00',
-				'PassAvailability': {
-					'Availability': [
-						{
-							'IsFree': False,
-							'IsBookable': True,
-							'HasAnythingBooked': False
-						},
-						{
-							'IsFree': False,
-							'IsBookable': True,
-							'HasAnythingBooked': False
-						},
-						{
-							'IsFree': True,
-							'IsBookable': True,
-							'HasAnythingBooked': False
-						}
-					]
-				}
-			},
-			{
-				'PassIndex': 4,
-				'StartTime': '19:00',
-				'EndTime': '22:00',
-				'PassAvailability': {
-					'Availability': [
-						{
-							'IsFree': True,
-							'IsBookable': True,
-							'HasAnythingBooked': False
-						},
-						{
-							'IsFree': True,
-							'IsBookable': True,
-							'HasAnythingBooked': False
-						},
-						{
-							'IsFree': True,
-							'IsBookable': True,
-							'HasAnythingBooked': False
-						}
-					]
-				}
-			}
-		]
-	}
+  'BookDate': '2019-01-23',
+  'BookDayPassesAmount': 3,
+  'BookPasses': {
+    'BookDayPass': [
+      {
+        'PassIndex': 3,
+        'StartTime': '16:00',
+        'EndTime': '19:00',
+        'PassAvailability': {
+          'Availability': [
+            {
+              'IsFree': False,
+              'IsBookable': True,
+              'HasAnythingBooked': False
+            },
+            {
+              'IsFree': False,
+              'IsBookable': True,
+              'HasAnythingBooked': False
+            },
+            {
+              'IsFree': True,
+              'IsBookable': True,
+              'HasAnythingBooked': False
+            }
+          ]
+        }
+      },
+      {
+        'PassIndex': 4,
+        'StartTime': '19:00',
+        'EndTime': '22:00',
+        'PassAvailability': {
+          'Availability': [
+            {
+              'IsFree': True,
+              'IsBookable': True,
+              'HasAnythingBooked': False
+            },
+            {
+              'IsFree': True,
+              'IsBookable': True,
+              'HasAnythingBooked': False
+            },
+            {
+              'IsFree': True,
+              'IsBookable': True,
+              'HasAnythingBooked': False
+            }
+          ]
+        }
+      }
+    ]
+  }
 }]
 ```
