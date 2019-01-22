@@ -4,6 +4,10 @@ ELSPy is a Python utility to communicate with Electrolux Laundry System.
 
 Utility has been tested with Electrolux Laundry System version 1.2.0.2.
 
+## Install
+
+`pip install ELSPy`
+
 ## Usage
 
 ```
