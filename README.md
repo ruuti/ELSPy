@@ -11,9 +11,12 @@ Utility has been tested with Electrolux Laundry System version 1.2.0.2.
 ## Usage
 
 ```
-from elspy import ELS
+from ELSPy.ELS import ELS
 
-els = ELS('<YOUR_DOMAIN_AND_PATH>/Api/Mobile/VisionMobile.asmx?WSDL', '<USERNAME>', '<PASSWORD>')
+wsdl = '<YOUR_DOMAIN_AND_PATH>/Api/Mobile/VisionMobile.asmx?WSDL'
+username = '<USERNAME>'
+password = '<PASSWORD>'
+els = ELS(wsdl, username, password)
 
 # Get bookable items
 choises = els.get_choises()

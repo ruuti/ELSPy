@@ -1,10 +1,9 @@
-"""ELSPy
-
-ELSPy is a Python utility to communicate with Electrolux Laundry 
-System SOAP Web Service.
-
 """
+ELSPy ELS module
 
+:copyright: (c) 2019 by Miikka Värri
+:license: MIT, see LICENSE for more details.
+"""
 from zeep import Client, xsd
 
 class ELS:
