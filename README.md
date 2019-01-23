@@ -11,7 +11,7 @@ Utility has been tested with Electrolux Laundry System version 1.2.0.2.
 ## Usage
 
 ```
-from elspy import ELS
+from ELSPy.ELS import ELS
 
 wsdl = '<YOUR_DOMAIN_AND_PATH>/Api/Mobile/VisionMobile.asmx?WSDL'
 username = '<USERNAME>'

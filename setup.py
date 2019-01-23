@@ -32,7 +32,7 @@ class VerifyVersionCommand(install):
 setup(
   name='ELSPy',
   version=VERSION,
-  scripts=['elspy.py'],
+  packages=['ELSPy'],
   author='Miikka Värri',
   author_email='miikka.varri@gmail.com',
   description='Electrolux Laundry System Python utility package',

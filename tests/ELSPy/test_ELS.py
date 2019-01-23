@@ -1,10 +1,6 @@
 # pylint: disable-all
-import json
-import os
-import pprint
 import unittest
-
-from elspy import ELS
+from ELSPy.ELS import ELS
 
 class TestELSPy(unittest.TestCase):
 
